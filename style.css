@@ -1,0 +1,500 @@
+@import "bootstrap-3.3.7-dist/css/bootstrap.min.css";
+/*
+  Theme Name: mk-start
+  Theme URI: https://www.themeisle.com/
+  Description: This is a custom child theme I have created.
+  Author: ThemeIsle
+  URI: https://www.themeisle.com/
+  Version: 0.1
+  */
+
+@font-face {
+    font-family: d_calibri;
+    src: url(fonts/Calibri.ttf);
+}
+
+body {
+    overflow-x: hidden;
+    color: #808080;
+    font-family: "Lato", Helvetica, sans-serif !important;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    display: block;
+    clear: both;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+h1,
+h2 {
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/*---------------------------------------
+ **   Header           -----
+-----------------------------------------*/
+
+
+
+header {
+    position: relative;
+}
+
+.navbar{
+    z-index: 1;
+}
+
+header.front-page {
+    height: 200px;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+header.front-page > div.darken {
+    width: 100%;
+    height: 50%;
+
+background: white;
+}
+header.front-page .intro-text {
+    position: relative;
+    top: 50%;
+    color: #fff;
+    font-size: 55px;
+    line-height: 65px;
+    text-align: center;
+    text-transform: uppercase;
+}
+header.page {
+    height: 180px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left -180px;
+    background-attachment: fixed;
+}
+/*header.page > div.darken {
+    width: 100%;
+    height: 100%;
+}*/
+header.page .intro-text {
+    display: none;
+}
+
+    ul.nav.navbar-nav {
+        float: left;
+    }
+}
+#logo {
+position: absolute;
+}
+#logo img {
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    height: 100px;
+    width: auto;
+    left: 0px;
+    top: 0px;
+}
+#main-header {
+    position: absolute;
+    right: 0;
+    left: 3%;
+/*    clear: both;*/
+}
+
+#mainimg{
+    background-image: url(http://www.dekarstwo-kopernacki.pl/wp-content/uploads/2018/03/Główne-zdjęcie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    padding-top: 800px;
+}
+
+
+
+
+/*---------------------------------------
+ **   Footer           -----
+-----------------------------------------*/
+.main {
+/*    position: relative;*/
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 53px;
+    background-color: rgba(0, 0, 0, 0.45);
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    
+    color: white;
+}
+
+#realizacja
+{
+    position: absolute;
+    right: 50px;
+    
+}
+
+.realization {
+    position:absolute;
+    width: 100%;
+    height: 32px;
+   
+    bottom: 0;
+    background-color: #000;
+    color: aliceblue;
+}
+
+
+#home1{
+    float: left;
+    margin-top: -1%;
+    
+}
+
+#adres{
+    float: right;
+    margin-top: 4%;
+    
+}
+
+
+
+
+#message1{
+    float: left;
+    margin-top: %;
+}   
+
+#mail{
+    float: right;
+    margin-top: 7%;
+    
+}
+
+
+
+
+
+#phone1{
+    float: left;
+    margin-top: %;
+}
+
+#telefon{
+    float: right;
+    margin-top: 2%;
+}
+
+/*.row{
+    
+    display: table;
+    margin: 0 auto;
+    float: none;
+}*/
+
+
+
+
+
+
+
+.stopek{
+    padding-left: 15%;
+    padding-right: 8%;
+    margin-bottom: -1%;
+}
+
+
+@media (max-width : 997px){
+    
+    .stopek{   
+     padding-left: 7%;
+    padding-right: 3%;
+    }
+    
+}
+
+
+
+
+@media (max-width : 849px){
+    
+    .stopek{   
+     padding-left: 1%;
+    padding-right: 1%;
+    }
+    
+}
+
+@media (max-width : 777px){
+    
+    .stopek{   
+     padding-left: 25%;
+    padding-right: 20%;
+    }
+    
+}
+
+@media (max-width : 523px){
+    
+    .stopek{   
+     padding-left: 15%;
+    padding-right: 10%;
+    }
+    
+}
+
+@media (max-width : 379px){
+    
+    .stopek{   
+     padding-left: 5%;
+    padding-right: 0px;
+    }
+    
+}
+
+
+
+/*NAVBAR*/
+
+.navbar-nav>li>a {
+    font-size: 30px;
+    padding-left: 80px;
+    font-family: d_calibri; 
+    text-transform: uppercase;
+    
+    
+}
+
+.navbar-nav>li>a:hover
+{
+    
+    text-decoration: underline;
+    text-decoration-color: #790000;
+;
+    
+}
+
+ul.nav.navbar-nav {
+    
+    float: left;
+    margin-top: 2%;
+}
+
+.navbar{
+    margin: 0;
+}
+
+
+/*KONTAKT*/
+
+#adres2{
+    margin-top: -10% !important;
+    margin-left: 22%;
+}
+
+#logokontakt{
+    margin-bottom: 8%;
+    margin-left: -10%;
+}
+
+#logokontakt img{
+    height: 100px;
+}
+
+#jeden{
+    float: left;
+    margin-top: 15%;
+    width: auto;
+   
+}
+
+#dwa{
+    padding-top: 8%;
+    padding-left: 8%;
+    float: left;
+}
+
+#Phone{
+    float: left;
+    clear: none;
+}
+
+#opis12{
+    margin-top: -18%;
+    margin-left: 19% !important;
+    float: none;
+    margin-left: 0;
+
+}
+
+
+
+h2{
+    font-size: 20px;
+    color: red;
+}
+
+.map-responsive{
+/*    overflow:hidden;*/
+    padding-bottom:56.25%;
+/*    position:relative;*/
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+/*    height:100%;*/
+    width:230%;
+/*    position:absolute;*/
+}
+
+
+
+@media (max-width : 1199px){
+    
+    #jeden{   
+     padding-left: 30%;
+    padding-right: 20%;
+    }
+    
+     #dwa{   
+     padding-left: 18%;
+    padding-right: 20%;
+    }
+    
+}
+
+
+/*OFERTA*/
+
+
+
+#Oferta1{
+
+    
+    font-size: 20px;
+    background-color: #eae9e7;
+    text-align: center;
+    padding: 20px;
+}
+
+#Oferta1a{
+    font-size: 20px;
+    color: #790000;
+    text-align: center;
+}
+
+#oferta2l
+{
+/*    float: left;*/
+    margin-top: 10%;
+    font-size: 20px;
+    background-color: #eae9e7;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+#oferta2la{
+    font-size: 20px;
+    color: #790000;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#oferta2r
+{
+/*    float: right;*/
+    margin-top: 10%;
+    font-size: 20px;
+    background-color: #eae9e7;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+/*onas*/
+
+#onas{
+    font-size: 20px;
+/*    text-align: justify;*/
+    
+}
+
+/*Realizacje*/
+
+
+
+.kijki:hover{
+    filter: blur(2px);
+    background-color: beige;
+
+    
+}
+
+.kijki{
+     border-radius: 90%;
+}
+
+
+@media (max-width : 1920px){
+.container{
+    height: 1100px;
+}
+    
+}
+
+@media (max-width : 1199px){
+.container{
+    height: 1150px;
+}
+    
+}
+
+@media (max-width : 991px){
+.container{
+    height: 2000px;
+}
+    
+}
+
+@media (max-width : 472px){
+.container{
+    height: 2700px;
+}
+    
+}
+
+
+
+
+
+   
